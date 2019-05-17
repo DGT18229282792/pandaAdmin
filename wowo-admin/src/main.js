@@ -6,7 +6,7 @@ import router from './router'
 import Antd from 'ant-design-vue'
 import 'ant-design-vue/dist/antd.css'
 import axios from 'axios'
-axios.defaults.baseURL = "http://localhost:3000"; //打包的时候直接删掉，默认基础路径在这里配置
+axios.defaults.baseURL = "http://localhost:3001"; //打包的时候直接删掉，默认基础路径在这里配置
 Vue.prototype.$reqs = axios;
 Vue.use(Antd)
 Vue.prototype.$http = axios

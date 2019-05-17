@@ -5,7 +5,7 @@ var userSchema = new mongoose.Schema({
   "userName":String,
   "userPwd":String,
   "orderList":Array,
-  "cartList":[
+  "cartList":[ 
     {
       "productId":String,
       "productName":String,

@@ -17,7 +17,6 @@ mongoose.connection.on('disconnected', function () {
             
             })
     //路由获取
-
 router.get('/', function (req, res, next) {
         // //查询mongoDB的goods数据
         Goods.find({}, function (err, doc) {      
